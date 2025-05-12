@@ -1,7 +1,12 @@
 // Fetch (nativo) ou Axios (package)
+
+// npm i dotenv
+import "dotenv/config"
+
 import axios from "axios";
 
-const URL = "http://localhost:3050";
+const {NODE_ENV} = process.env;
+const URL = NODE_ENV === 'development' ? "http://localhost:3050/api" : "/api"; 
 
 const responseArtists = await axios.get(`${URL}/artists`);
 const responseSongs = await axios.get(`${URL}/songs`);
