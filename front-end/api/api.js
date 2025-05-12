@@ -1,7 +1,6 @@
 // Fetch (nativo) ou Axios (package)
 
 // npm i dotenv
-import "dotenv/config"
 
 import axios from "axios";
 

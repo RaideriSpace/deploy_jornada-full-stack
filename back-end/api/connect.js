@@ -3,11 +3,8 @@
 // Fullfilled - promessa cumprida
 
 import { MongoClient } from "mongodb";
-import dotenv from "dotenv"
 
-dotenv.config();
-
-const URI = process.env.MONGODB_URI;
+const URI = "mongodb+srv://raideri:MegaR4yqu4z40384@cluster0.1oydjaj.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0";
 
 const client = new MongoClient(URI);
 
