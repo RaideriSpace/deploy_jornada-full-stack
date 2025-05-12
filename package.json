@@ -17,5 +17,9 @@
     "url": "https://github.com/RaideriSpace/deploy_jornada-full-stack/issues"
   },
   "homepage": "https://github.com/RaideriSpace/deploy_jornada-full-stack#readme",
-  "description": ""
+  "description": "",
+  "dependencies": {
+    "bfg": "^0.3.0",
+    "git-filter-repo": "^0.0.30"
+  }
 }
